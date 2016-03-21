@@ -1,0 +1,103 @@
+
+body {
+  background: #cccc99;
+}
+
+// 居中做演示，可删除
+#react-content {
+  margin: 60px 185px;
+}
+
+// 软件分享页面组件
+.app-wrapper {
+  width: 910px;
+  border: 3px solid #fff;
+  padding: 10px 30px;
+  .app-cover {
+    float: left;
+    margin-right: 30px;
+    img {
+      background-color: #fff;
+      background-size: cover;
+      width: 192px;
+      height: 128px;
+      display: block;
+    }
+  }
+  .app-info {
+    float: left;
+    width: 619px;
+    min-height: 360px;
+    .title {
+      height: 60px;
+      color: #2db7f5;
+      background-color: #fff;
+      h2 {
+        float: left;
+        line-height: 60px;
+        font-size: 26px;
+        padding: 0 15px;
+      }
+      h3 {
+        float: left;
+        margin-top: 24px;
+      }
+      .sharenum {
+        float: left;
+        color: #DA1168;
+        font-size: 34px;
+        font-weight: 500;
+        margin-top: 4px;
+        margin-left: 10px;
+        cursor: pointer;
+        &:after {
+          clear: both;
+          content: '';
+          display: block;
+          height: 0;
+        }
+      }
+    }
+    .sharelist {
+      span {
+        display: block;
+        padding: 10px;
+      }
+      ul {
+        color: #2db7f5;
+        padding-left: 21px;
+        list-style: disc;
+      }
+    }
+    .content-intro, .content-more {
+      padding: 20px;
+      background-color: #ffffff;
+      p {
+        font-size: 14px;
+        color: #828282;
+      }
+    }
+    .content-intro {
+      min-height: 166px;
+      margin-top: 10px;
+    }
+    .content-more {
+      min-height: auto;
+    }
+    .content-divide {
+      text-align: right;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      span {
+        cursor: pointer;
+        color: #2db7f5;
+      }
+    }
+  }
+  &:after {
+    clear: both;
+    content: '';
+    display: block;
+    height: 0;
+  }
+}
