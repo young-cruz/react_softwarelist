@@ -1,6 +1,7 @@
 import '../common/lib';
-import App from '../component/App';
+import ProjectListApp from '../component/ProjectListApp';
 import ReactDOM from 'react-dom';
 import React from 'react';
+const Projects = require('../../projects.json');
 
-ReactDOM.render(<App />, document.getElementById('react-content'));
+ReactDOM.render(<ProjectListApp projects={Projects}/>, document.getElementById('react-content'));
