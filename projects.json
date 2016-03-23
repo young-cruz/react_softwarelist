@@ -5,8 +5,8 @@
     "name": "督查督办系统",
     "providedCompany": "塔里木勘探公司",
     "usingCompanies": [
-      { "name": "川西钻探公司", "link": "http://www.baidu.com" },
-      { "name": "地球物理勘探公司", "link": "http://www.baidu.com" }
+      { "id": "1", "name": "川西钻探公司", "link": "http://www.baidu.com" },
+      { "id": "2", "name": "地球物理勘探公司", "link": "http://www.baidu.com" }
     ],
     "introText": "督查督办系统是在大量的督查督办项目实践中，在汇总需求和工作经验的基础上，开发的一套使用与政府机关、企事业单位工作部署与督查的系统，实现对工作、任务的分解，下派、执行及办理过程的监督，防止工作积压、工作责任不明、工作贻误等问题，减少工作汇报，提高工作的执行效率。",
     "moreInfo": "### 软件详细介绍\n\n督查督办系统是在大量的督查督办项目实践中......"
@@ -17,9 +17,9 @@
     "name": "电话本系统",
     "providedCompany": "川西钻探公司",
     "usingCompanies": [
-      { "name": "物探西安公司", "link": "http://www.baidu.com" },
-      { "name": "物探成都公司", "link": "http://www.baidu.com" },
-      { "name": "物探北京公司", "link": "http://www.baidu.com" }
+      { "id": "1", "name": "物探西安公司", "link": "http://www.baidu.com" },
+      { "id": "2", "name": "物探成都公司", "link": "http://www.baidu.com" },
+      { "id": "3", "name": "物探北京公司", "link": "http://www.baidu.com" }
     ],
     "introText": "督查督办系统是在大量的督查督办项目实践中，在汇总需求和工作经验的基础上，开发的一套使用与政府机关、企事业单位工作部署与督查的系统，实现对工作、任务的分解，下派、执行及办理过程的监督，防止工作积压、工作责任不明、工作贻误等问题，减少工作汇报，提高工作的执行效率。",
     "moreInfo": "### 软件详细介绍\n\n督查督办系统是在大量的督查督办项目实践中......"
